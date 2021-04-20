@@ -1,0 +1,54 @@
+
+
+#main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+}
+#mainContainer {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  margin-right: 10% ;
+}
+.bodyBg{
+  background: url(./mountains.svg),linear-gradient(135deg,#1f4e69 0,#164058 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-location input{
+  background-color: rgba(255, 255, 255,50% );
+  
+}
+.day {
+  background: linear-gradient(to bottom left, #d7d3ac, #ffffff);
+}
+.night {
+  background: linear-gradient(to bottom left, #4854a2, #3d3d3d);
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 10px rgb(139, 245, 255);
+}
+
+.notFound{
+ 
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 10%)!important;
+}
+.card-title{
+  color:white
+}
+
+.card-body p{
+  color: #fff;
+}
